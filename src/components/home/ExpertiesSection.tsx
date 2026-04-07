@@ -51,7 +51,7 @@ const ExpertiesSection: React.FC = () => {
                 >
                     <div className="p-8 text-center bg-gray-900 rounded-lg bg-opacity-80">
                         <p className="max-w-2xl px-4 mb-8 text-lg">
-                            At EleventaEdge, we combine proven strategies with modern tools to deliver reliable support, smarter marketing, and measurable business growth.
+                            At PrimePath Innovations, we combine proven strategies with modern tools to deliver reliable support, smarter marketing, and measurable business growth.
                         </p>
 
                         <div className="max-w-2xl px-4 space-y-6">

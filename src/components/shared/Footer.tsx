@@ -14,7 +14,7 @@ const Footer = () => {
                         <p className="mb-4 text-lg">Al Nahda 1</p>
                         <p className="mb-4 text-lg">Phone: +971 56 132 5543</p>
                         <p className="text-lg">
-                            Email: <a href="mailto:team@eleventaedge.com" className="text-blue-400">team@smartglobalhub.com</a>
+                            Email: <a href="mailto:team@primepathinnovations.com" className="text-blue-400">team@smartglobalhub.com</a>
                         </p>
                     </div>
 

@@ -33,7 +33,7 @@ const ServiceMarketingSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            EleventaEdge helps businesses grow through targeted marketing, lead generation, and social media management. We create strategies that boost visibility, attract quality leads, and maximize ROI.
+                            PrimePath Innovations helps businesses grow through targeted marketing, lead generation, and social media management. We create strategies that boost visibility, attract quality leads, and maximize ROI.
                         </motion.p>
                     </div>
 

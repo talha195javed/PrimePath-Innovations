@@ -15,7 +15,7 @@ const ChooseSection: React.FC = () => {
                     Why Choose Us?
                 </h1>
                 <p className="mb-8 text-lg text-gray-300">
-                    ✨ At EleventaEdge, we don’t just provide services — we become an extension of your team, ensuring consistency, growth, and measurable impact. Here’s why businesses trust us:
+                    ✨ At PrimePath Innovations, we don’t just provide services — we become an extension of your team, ensuring consistency, growth, and measurable impact. Here’s why businesses trust us:
                 </p>
                 <div className="space-y-6">
                     <motion.div

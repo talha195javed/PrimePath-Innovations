@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://eleventaedge.com/sitemap.xml
+Sitemap: https://primepathinnovations.com/sitemap.xml

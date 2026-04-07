@@ -12,7 +12,7 @@ const WhatsAppFAB: React.FC = () => {
                 onClick={handleWhatsAppClick}
                 className={`
                     flex items-center justify-center w-14 h-14 rounded-full 
-                    bg-green-600 hover:bg-green-700 shadow-lg 
+                     bg-green-600 hover:bg-green-700 shadow-lg 
                     transition-transform duration-200 transform hover:scale-110
                 `}
             >

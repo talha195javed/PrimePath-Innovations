@@ -34,7 +34,7 @@ const ServiceSoftwareSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            At EleventaEdge, we craft custom software solutions designed to streamline workflows, enhance productivity, and automate key business processes. From virtual assistance platforms to lead generation tools, our software enables smarter, faster, and more efficient operations.
+                            At PrimePath Innovations, we craft custom software solutions designed to streamline workflows, enhance productivity, and automate key business processes. From virtual assistance platforms to lead generation tools, our software enables smarter, faster, and more efficient operations.
                         </motion.p>
                     </div>
 

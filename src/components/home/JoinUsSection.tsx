@@ -43,7 +43,7 @@ const JoinUsSection = () => {
             <div className="relative z-10 max-w-2xl p-8 text-center text-white">
                 <h2 className="mb-6 text-4xl font-bold">Join Us</h2>
                 <p className="mb-6 text-lg">
-                    At EleventaEdge, we’re more than just a team — we’re a community of
+                    At PrimePath Innovations, we’re more than just a team — we’re a community of
                     innovators, problem-solvers, and growth enablers. If you’re passionate
                     about technology, digital marketing, and creating real business impact,
                     we’d love to have you on board.

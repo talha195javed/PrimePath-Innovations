@@ -33,7 +33,7 @@ const ServiceSupportSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            EleventaEdge provides reliable business support solutions that streamline operations, optimize workflow, and enhance productivity. Our services are designed to help you focus on growth while we handle the administrative and operational tasks.
+                            PrimePath Innovations provides reliable business support solutions that streamline operations, optimize workflow, and enhance productivity. Our services are designed to help you focus on growth while we handle the administrative and operational tasks.
                         </motion.p>
                     </div>
 

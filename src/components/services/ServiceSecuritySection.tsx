@@ -33,7 +33,7 @@ const ServiceSupportSecuritySection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            At EleventaEdge, protecting your business and client data is our priority. We ensure that all operations, communications, and client information are handled securely, maintaining trust and reliability for your business.
+                            At PrimePath Innovations, protecting your business and client data is our priority. We ensure that all operations, communications, and client information are handled securely, maintaining trust and reliability for your business.
                         </motion.p>
                     </div>
 

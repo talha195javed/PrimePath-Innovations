@@ -33,7 +33,7 @@ const ServiceBusinessGrowthSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            EleventaEdge helps businesses grow through Virtual Assistance, Lead Generation,
+                            PrimePath Innovations helps businesses grow through Virtual Assistance, Lead Generation,
                             Social Media Management, and Ads Management. We provide reliable support and
                             innovative strategies that drive measurable results and sustainable success.
                         </motion.p>

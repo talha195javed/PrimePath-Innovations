@@ -34,7 +34,7 @@ const ServiceWebSection = () => {
                             transition={{ duration: 1, delay: 0.4 }}
                             viewport={{ once: true }}
                         >
-                            At EleventaEdge, we craft responsive, secure, and user-friendly web solutions tailored to elevate your online presence. From SaaS platforms to digital marketing tools, we design web experiences that streamline operations, engage audiences, and drive measurable growth.
+                            At PrimePath Innovations, we craft responsive, secure, and user-friendly web solutions tailored to elevate your online presence. From SaaS platforms to digital marketing tools, we design web experiences that streamline operations, engage audiences, and drive measurable growth.
                         </motion.p>
                     </div>
 
