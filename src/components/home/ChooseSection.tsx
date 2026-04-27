@@ -15,7 +15,7 @@ const ChooseSection: React.FC = () => {
                     Why Choose Us?
                 </h1>
                 <p className="mb-8 text-lg text-gray-300">
-                    ✨ At PrimePath Innovations, we don’t just provide services — we become an extension of your team, ensuring consistency, growth, and measurable impact. Here’s why businesses trust us:
+                    🚀 At PrimePath Innovations, we don't just write code — we build digital solutions that transform your business. Here's why companies choose our development services:
                 </p>
                 <div className="space-y-6">
                     <motion.div
@@ -26,9 +26,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Proven Expertise</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Technical Excellence</h3>
                             <p className="text-gray-300">
-                                From startups to enterprises, we’ve helped businesses streamline operations and accelerate growth.
+                                From startups to enterprises, we've delivered 32+ projects using cutting-edge technologies and best practices.
                             </p>
                         </div>
                     </motion.div>
@@ -41,9 +41,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Result-Driven Approach</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Performance-Driven Development</h3>
                             <p className="text-gray-300">
-                                Every strategy we design is focused on delivering measurable outcomes that boost your bottom line.
+                                Every application we build is optimized for speed, scalability, and exceptional user experience.
                             </p>
                         </div>
                     </motion.div>
@@ -56,9 +56,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.6 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Tailored Solutions</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Custom Architecture</h3>
                             <p className="text-gray-300">
-                                We customize our services to match your unique business goals and industry requirements.
+                                We design scalable solutions tailored to your specific business requirements and industry needs.
                             </p>
                         </div>
                     </motion.div>
@@ -71,9 +71,9 @@ const ChooseSection: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeOut', delay: 0.8 }}
                     >
                         <div>
-                            <h3 className="mb-2 text-xl font-semibold text-white">Scalable Support</h3>
+                            <h3 className="mb-2 text-xl font-semibold text-white">Future-Proof Solutions</h3>
                             <p className="text-gray-300">
-                                Whether you’re growing or already established, our services scale with your business needs.
+                                We build applications that grow with your business using scalable, maintainable, and modern architectures.
                             </p>
                         </div>
                     </motion.div>

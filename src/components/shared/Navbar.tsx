@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
 
                     {/* Logo Section */}
                     <div className="flex items-center justify-center flex-1 lg:justify-start">
-                        <img src={"icons/logo.png"} alt="icon" className="h-24 mr-2" />
+                        <img src={"icons/logo.png"} alt="PrimePath Innovations" className="h-12 mr-3 transition-all duration-300 hover:scale-105" />
                     </div>
 
                     {/* Desktop Navigation */}

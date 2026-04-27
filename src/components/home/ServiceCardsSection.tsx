@@ -10,12 +10,12 @@ interface Service {
 
 // Service Data
 const services: Service[] = [
-    { id: "ai", title: "Virtual Assistance", description: "Reliable support for your daily admin tasks so you can focus on growth.", icon: "👩‍💻" },
-    { id: "mobile", title: "Lead Generation", description: "Identifying and delivering quality leads to boost your sales pipeline.", icon: "🎯" },
-    { id: "web", title: "Social Media Management", description: "Building your brand presence and engaging your audience across platforms.", icon: "📢" },
-    { id: "software", title: "Appointment Setting", description: "Scheduling meetings with your potential clients — hassle-free and efficient.", icon: "📅" },
-    { id: "cloud", title: "Google Ads Management", description: "Running targeted Google ad campaigns that drive traffic and conversions.", icon: "💹" },
-    { id: "security", title: "Social Media Ads", description: "Creating and managing ad campaigns on Facebook, Instagram, and more.", icon: "📲" },
+    { id: "fullstack", title: "Full Stack Development", description: "End-to-end web applications using React, Node.js, and modern technologies.", icon: "" },
+    { id: "ai", title: "AI & ML Integration", description: "Integrate AI capabilities including chatbots, recommendation systems, and automation.", icon: "🤖" },
+    { id: "mobile", title: "Mobile App Development", description: "Cross-platform mobile applications using React Native and Flutter.", icon: "�" },
+    { id: "api", title: "API Development", description: "Robust RESTful and GraphQL APIs with third-party integrations.", icon: "�" },
+    { id: "ecommerce", title: "E-commerce Solutions", description: "Complete e-commerce platforms with payment processing and inventory management.", icon: "�" },
+    { id: "cloud", title: "Cloud & DevOps", description: "Cloud infrastructure setup, CI/CD pipelines, and deployment automation.", icon: "☁️" },
 ];
 
 

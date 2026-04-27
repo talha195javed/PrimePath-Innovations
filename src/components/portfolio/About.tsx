@@ -70,40 +70,40 @@ const About = () => {
               className="space-y-6"
             >
               <h3 className="text-2xl font-semibold text-white mb-4">
-                Senior Full Stack Developer & Project Manager
+                Your Full Stack Development Partner
               </h3>
               
               <p className="text-gray-300 leading-relaxed">
-                I'm a Senior Full Stack Developer with extensive experience in building dynamic web applications 
-                and managing complex projects. My expertise spans from PHP development to modern JavaScript frameworks, 
-                with a strong focus on creating scalable, efficient solutions that drive business success.
+                I provide comprehensive full-stack development services that transform your business ideas into powerful digital solutions. 
+                With expertise spanning from frontend interfaces to backend APIs, AI integration, and mobile applications, 
+                I deliver complete solutions that drive business growth and exceptional user experiences.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                I've developed and deployed 10+ dynamic web applications using Core PHP, Laravel, and modern JavaScript 
-                frameworks, achieving system efficiency improvements of up to 25%. I specialize in converting designs 
-                into pixel-perfect, responsive websites that increase user engagement by 30% and reduce bounce rates.
+                My services include custom web applications, AI-powered solutions, e-commerce platforms, API development, 
+                and mobile apps. I've successfully delivered 10+ dynamic applications achieving 25% efficiency improvements 
+                and 30% increases in user engagement for clients across various industries.
               </p>
               
               <p className="text-gray-300 leading-relaxed">
-                With experience as both a PHP Developer at Inertia and Business Developer/Project Manager at Viltco Technologies, 
-                I bring a unique combination of technical expertise and business acumen, delivering projects with 95% client 
-                satisfaction and 98% on-budget completion rates.
+                Combining technical excellence with business understanding, I ensure every project meets your specific requirements 
+                while delivering measurable results. With 95% client satisfaction and proven track record of on-time, 
+                on-budget project delivery, I'm your reliable partner for digital transformation.
               </p>
 
-              {/* Quick Stats */}
+              {/* Service Stats */}
               <div className="grid grid-cols-3 gap-4 pt-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-400">10+</div>
-                  <div className="text-sm text-gray-400">Web Apps Deployed</div>
+                  <div className="text-3xl font-bold text-purple-400">8+</div>
+                  <div className="text-sm text-gray-400">Service Categories</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-pink-400">95%</div>
+                  <div className="text-3xl font-bold text-pink-400">32+</div>
+                  <div className="text-sm text-gray-400">Projects Delivered</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-400">100%</div>
                   <div className="text-sm text-gray-400">Client Satisfaction</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-400">25%</div>
-                  <div className="text-sm text-gray-400">Efficiency Improvement</div>
                 </div>
               </div>
             </motion.div>

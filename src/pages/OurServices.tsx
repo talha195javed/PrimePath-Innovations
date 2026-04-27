@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom"; // Import useLocation hook
 import { motion } from "framer-motion"; // Import motion for animations
 import useImageCarousel from "../hooks/useImageCarousel";
+import ServiceWebSection from "../components/services/ServiceWebSection";
 import ServiceAISection from "../components/services/ServiceAISection";
 import ServiceMobileSection from "../components/services/ServiceMobileSection";
-import ServiceWebSection from "../components/services/ServiceWebSection";
 import ServiceSoftwareSection from "../components/services/ServiceSoftwareSection";
 import ServiceCloudSection from "../components/services/ServiceCloudSection";
 import ServiceSecuritySection from "../components/services/ServiceSecuritySection";
@@ -68,10 +68,12 @@ const OurServices = () => {
 
             {/* Sections with IDs */}
             <div className="relative z-10">
+                <div className="pt-32" id="fullstack"><ServiceWebSection /></div>
                 <div className="pt-32" id="ai"><ServiceAISection /></div>
                 <div className="pt-32" id="mobile"><ServiceMobileSection /></div>
-                <div className="pt-32" id="cloud"><ServiceCloudSection /></div>
-                <div className="pt-32" id="security"><ServiceSecuritySection /></div>
+                <div className="pt-32" id="api"><ServiceSoftwareSection /></div>
+                <div className="pt-32" id="ecommerce"><ServiceCloudSection /></div>
+                <div className="pt-32" id="cloud"><ServiceSecuritySection /></div>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const Footer = () => {
                         <p className="mb-4 text-lg">Al Nahda 1</p>
                         <p className="mb-4 text-lg">Phone: +971 56 132 5543</p>
                         <p className="text-lg">
-                            Email: <a href="mailto:team@primepathinnovations.com" className="text-blue-400">team@smartglobalhub.com</a>
+                            Email: <a href="mailto:talha195javed@gmail.com" className="text-blue-400">talha@primepathinnovations.com</a>
                         </p>
                     </div>
 
@@ -49,16 +49,16 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="flex justify-center space-x-6">
-                            <a href="https://www.facebook.com/smartclassicdubai/" className="text-gray-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/" className="text-gray-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">
                                 <FaFacebook size={24} />
                             </a>
-                            <a href="https://www.instagram.com/smartclassicdubai/" className="text-gray-400 hover:text-pink-600" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/" className="text-gray-400 hover:text-pink-600" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram size={24} />
                             </a>
-                            <a href="https://www.linkedin.com/company/smartclassicdubai/posts/?feedView=all" className="text-gray-400 hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/m-talha-javed-aa36b9ba/" className="text-gray-400 hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                                 <FaLinkedin size={24} />
                             </a>
-                            <a href="https://x.com/smartchub" className="text-gray-400 hover:text-red-500" target="_blank" rel="noopener noreferrer">
+                            <a href="https://x.com/" className="text-gray-400 hover:text-red-500" target="_blank" rel="noopener noreferrer">
                                 <FaTimes size={24} />
                             </a>
                         </div>

@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import useImageCarousel from "../../hooks/useImageCarousel";
 
 const images = [
-    "/images/expert-areas/va.webp",
-    "/images/expert-areas/lg.jpg",
-    "/images/expert-areas/as.jpg",
-    "/images/expert-areas/smm.png"
+    "/images/intro-1.jpg",
+    "/images/intro-2.avif",
+    "/images/intro-3.jpg",
+    "/images/intro-4.webp"
 ];
 
 const ExpertiesSection: React.FC = () => {
@@ -51,16 +51,16 @@ const ExpertiesSection: React.FC = () => {
                 >
                     <div className="p-8 text-center bg-gray-900 rounded-lg bg-opacity-80">
                         <p className="max-w-2xl px-4 mb-8 text-lg">
-                            At PrimePath Innovations, we combine proven strategies with modern tools to deliver reliable support, smarter marketing, and measurable business growth.
+                            At PrimePath Innovations, we combine cutting-edge technologies with proven development practices to deliver scalable solutions, innovative applications, and measurable business growth.
                         </p>
 
                         <div className="max-w-2xl px-4 space-y-6">
                             {[
-                                { title: "Virtual Assistance", desc: "Streamlining administrative tasks, inbox management, and daily operations." },
-                                { title: "Lead Generation", desc: "Advanced strategies to identify, qualify, and deliver high-quality leads." },
-                                { title: "Appointment Setting", desc: "Hassle-free scheduling and calendar management to connect you with potential clients." },
-                                { title: "Paid Ads Management", desc: "Running optimized campaigns on Google Ads, Facebook, Instagram, and LinkedIn." },
-                                { title: "Social Media Management", desc: "Crafting engaging content and growing brand visibility across multiple platforms." }
+                                { title: "Full Stack Development", desc: "Building end-to-end web applications with React, Node.js, and modern frameworks." },
+                                { title: "AI & Machine Learning", desc: "Integrating intelligent automation, chatbots, and predictive analytics into applications." },
+                                { title: "Mobile App Development", desc: "Creating cross-platform mobile applications using React Native and Flutter." },
+                                { title: "API Development & Integration", desc: "Designing robust RESTful and GraphQL APIs with third-party service integrations." },
+                                { title: "Cloud & DevOps Solutions", desc: "Implementing scalable cloud infrastructure, CI/CD pipelines, and deployment automation." }
                             ].map((item, index) => (
                                 <motion.div
                                     key={index}

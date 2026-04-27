@@ -45,7 +45,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     try {
       await new Promise(resolve => setTimeout(resolve, 2000));
@@ -63,19 +63,19 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       label: 'Email',
-      value: 'talha@example.com',
-      href: 'mailto:talha@example.com'
+      value: 'talha195javed@gmail.com',
+      href: 'mailto:talha195javed@gmail.com'
     },
     {
       icon: FaPhone,
       label: 'Phone',
-      value: '+92 3XX XXXXXXX',
-      href: 'tel:+923XXXXXXXXX'
+      value: '+971561325543',
+      href: 'tel:+971561325543'
     },
     {
       icon: FaMapMarkerAlt,
       label: 'Location',
-      value: 'Lahore, Pakistan',
+      value: 'Dubai, UAE',
       href: '#'
     }
   ];
@@ -83,7 +83,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/talha195javed', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/m-talha-javed-aa36b9ba/', label: 'LinkedIn' },
-    { icon: FaTwitter, href: 'https://twitter.com/talha195javed', label: 'Twitter' }
+    { icon: FaEnvelope, href: 'mailto:talha195javed@gmail.com', label: 'Email' }
   ];
 
   return (
@@ -117,7 +117,7 @@ const Contact = () => {
             >
               <div className="bg-slate-900 rounded-xl p-8 border border-slate-700">
                 <h3 className="text-2xl font-bold text-white mb-6">Send Me a Message</h3>
-                
+
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -151,7 +151,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  
+
                   <div>
                     <label htmlFor="subject" className="block text-gray-300 mb-2">
                       Subject *
@@ -167,7 +167,7 @@ const Contact = () => {
                       placeholder="Project Discussion"
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="message" className="block text-gray-300 mb-2">
                       Message *
@@ -183,7 +183,7 @@ const Contact = () => {
                       placeholder="Tell me about your project..."
                     ></textarea>
                   </div>
-                  
+
                   <button
                     type="submit"
                     disabled={isSubmitting}
@@ -201,13 +201,13 @@ const Contact = () => {
                       </>
                     )}
                   </button>
-                  
+
                   {submitStatus === 'success' && (
                     <div className="p-4 bg-green-500 bg-opacity-20 border border-green-500 rounded-lg text-green-400">
                       Thank you for your message! I'll get back to you soon.
                     </div>
                   )}
-                  
+
                   {submitStatus === 'error' && (
                     <div className="p-4 bg-red-500 bg-opacity-20 border border-red-500 rounded-lg text-red-400">
                       Something went wrong. Please try again later.
@@ -225,7 +225,7 @@ const Contact = () => {
               {/* Contact Details */}
               <div className="bg-slate-900 rounded-xl p-8 border border-slate-700">
                 <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
-                
+
                 <div className="space-y-6">
                   {contactInfo.map((info, index) => (
                     <div key={index} className="flex items-center gap-4">
@@ -249,7 +249,7 @@ const Contact = () => {
               {/* Social Links */}
               <div className="bg-slate-900 rounded-xl p-8 border border-slate-700">
                 <h3 className="text-2xl font-bold text-white mb-6">Connect With Me</h3>
-                
+
                 <div className="grid grid-cols-3 gap-4">
                   {socialLinks.map((social, index) => (
                     <a
@@ -272,7 +272,7 @@ const Contact = () => {
               <div className="bg-gradient-to-r from-purple-900 to-pink-900 rounded-xl p-8 border border-purple-700">
                 <h3 className="text-xl font-bold text-white mb-3">Current Availability</h3>
                 <p className="text-gray-300 mb-4">
-                  I'm currently available for freelance projects and full-time opportunities. 
+                  I'm currently available for freelance projects and full-time opportunities.
                   If you have an interesting project or role, I'd love to hear about it!
                 </p>
                 <div className="flex items-center gap-2">

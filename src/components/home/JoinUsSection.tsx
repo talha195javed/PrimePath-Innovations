@@ -43,21 +43,21 @@ const JoinUsSection = () => {
             <div className="relative z-10 max-w-2xl p-8 text-center text-white">
                 <h2 className="mb-6 text-4xl font-bold">Join Us</h2>
                 <p className="mb-6 text-lg">
-                    At PrimePath Innovations, we’re more than just a team — we’re a community of
-                    innovators, problem-solvers, and growth enablers. If you’re passionate
-                    about technology, digital marketing, and creating real business impact,
-                    we’d love to have you on board.
+                    At PrimePath Innovations, we're more than just a development team — we're a community of
+                    innovators, problem-solvers, and technology enthusiasts. If you're passionate
+                    about cutting-edge development, AI integration, and creating exceptional digital experiences,
+                    we'd love to have you on board.
                 </p>
 
                 <ul className="mb-6 space-y-3 text-left text-lg">
-                    <li>🚀 <strong>Growth-Driven Environment</strong> – Learn, experiment, and thrive with continuous opportunities to grow.</li>
-                    <li>🤝 <strong>Collaborative Culture</strong> – Work alongside talented professionals who share a passion for innovation.</li>
-                    <li>🌍 <strong>Global Opportunities</strong> – Contribute to projects that make an impact across industries and borders.</li>
-                    <li>💡 <strong>Innovation at Core</strong> – Be part of a team that embraces creativity, new ideas, and cutting-edge tools.</li>
+                    <li>🚀 <strong>Technical Excellence</strong> – Work with cutting-edge technologies and modern development practices.</li>
+                    <li>🤝 <strong>Collaborative Development</strong> – Join talented developers who share a passion for clean code and innovation.</li>
+                    <li>🌍 <strong>Impactful Projects</strong> – Build applications that make a real difference across industries and businesses.</li>
+                    <li>💡 <strong>Innovation-Driven</strong> – Be part of a team that embraces new technologies, AI integration, and creative solutions.</li>
                 </ul>
 
                 <p className="text-lg mb-8">
-                    ✨ Join us and let’s shape the future of business growth together.
+                    ✨ Join us and let's build the future of digital solutions together.
                 </p>
 
                 <button

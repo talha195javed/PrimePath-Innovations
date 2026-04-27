@@ -36,11 +36,11 @@ const AboutUs: React.FC = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 0.2 }}
                     >
-                        Welcome to <Link to="/">{COMPANY_NAME}</Link> – your trusted partner in
-                        business growth. At <Link to="/">{COMPANY_NAME}</Link>, we empower startups
-                        and enterprises with reliable support, smarter marketing, and innovative
-                        digital strategies. From daily operations to lead generation and paid ads,
-                        we help businesses focus on growth while we handle the rest.
+                        Welcome to <Link to="/">{COMPANY_NAME}</Link> – your expert partner in
+                        full-stack development and digital transformation. At <Link to="/">{COMPANY_NAME}</Link>, 
+                        we empower businesses with cutting-edge web solutions, AI integration, and scalable applications. 
+                        From custom web applications to mobile apps and e-commerce platforms, we transform your ideas 
+                        into powerful digital realities that drive business growth.
                     </motion.p>
 
                     <motion.p
@@ -49,11 +49,11 @@ const AboutUs: React.FC = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay: 0.4 }}
                     >
-                        Our expertise spans Virtual Assistance, Social Media Management, Lead
-                        Generation, Appointment Setting, and Ads Management. By combining proven
-                        strategies with modern tools, we deliver excellence, consistency, and
-                        measurable impact — helping brands build stronger connections and achieve
-                        sustainable success in today’s fast-changing market.
+                        Our expertise spans Full Stack Development, AI & ML Integration, Mobile App Development, 
+                        API Development, E-commerce Solutions, and Cloud & DevOps. By combining proven
+                        development practices with cutting-edge technologies, we deliver excellence, scalability, and
+                        measurable impact — helping businesses build powerful digital solutions and achieve
+                        sustainable success in today's competitive market.
                     </motion.p>
                 </section>
 
@@ -92,45 +92,45 @@ const AboutUs: React.FC = () => {
                         {/* Expertise Items */}
                         {[
                             {
-                                icon: "👩‍💻",
-                                title: "Virtual Assistance",
+                                icon: "",
+                                title: "Full Stack Development",
                                 content:
-                                    "Providing reliable support for daily administrative tasks so businesses can focus on growth.",
+                                    "Building end-to-end web applications with React, Node.js, and modern frameworks for scalable business solutions.",
                                 delay: 0.2,
                             },
                             {
-                                icon: "🎯",
-                                title: "Lead Generation",
+                                icon: "🤖",
+                                title: "AI & ML Integration",
                                 content:
-                                    "Identifying and delivering high-quality leads to boost your sales pipeline.",
+                                    "Integrating intelligent automation, chatbots, and predictive analytics to enhance application capabilities.",
                                 delay: 0.4,
                             },
                             {
-                                icon: "📢",
-                                title: "Social Media Management",
+                                icon: "�",
+                                title: "Mobile App Development",
                                 content:
-                                    "Building brand presence and engaging audiences across platforms to grow visibility and influence.",
+                                    "Creating cross-platform mobile applications using React Native and Flutter for iOS and Android.",
                                 delay: 0.6,
                             },
                             {
-                                icon: "📅",
-                                title: "Appointment Setting",
+                                icon: "�",
+                                title: "API Development",
                                 content:
-                                    "Scheduling meetings efficiently with potential clients to maximize your time and opportunities.",
+                                    "Designing robust RESTful and GraphQL APIs with third-party service integrations for seamless connectivity.",
                                 delay: 0.8,
                             },
                             {
-                                icon: "💹",
-                                title: "Google Ads Management",
+                                icon: "�",
+                                title: "E-commerce Solutions",
                                 content:
-                                    "Running targeted ad campaigns that drive traffic, leads, and measurable conversions.",
+                                    "Building complete e-commerce platforms with payment processing, inventory management, and customer experiences.",
                                 delay: 1.0,
                             },
                             {
-                                icon: "📲",
-                                title: "Social Media Ads",
+                                icon: "☁️",
+                                title: "Cloud & DevOps",
                                 content:
-                                    "Creating and managing ad campaigns on Facebook, Instagram, and other platforms to amplify reach.",
+                                    "Implementing scalable cloud infrastructure, CI/CD pipelines, and deployment automation for optimal performance.",
                                 delay: 1.2,
                             },
                         ].map(({ icon: Icon, title, content, delay }) => (
@@ -164,7 +164,7 @@ const AboutUs: React.FC = () => {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                     >
-                        <Link to="/">{COMPANY_NAME}</Link> – Empowering Business Growth
+                        <Link to="/">{COMPANY_NAME}</Link> – Transforming Ideas Into Digital Reality
                     </motion.h2>
 
                     <motion.p
@@ -175,8 +175,8 @@ const AboutUs: React.FC = () => {
                         viewport={{ once: true }}
                     >
                         Our team at <Link to="/">{COMPANY_NAME}</Link> is dedicated to helping businesses thrive through
-                        reliable support, smart marketing strategies, and digital solutions that drive results.
-                        We focus on delivering consistent, measurable impact — from Virtual Assistance and Lead Generation to Social Media Management and Paid Ads — ensuring sustainable growth and stronger customer connections.
+                        cutting-edge development solutions, innovative technology integration, and scalable digital applications.
+                        We focus on delivering consistent, measurable impact — from Full Stack Development and AI Integration to Mobile Apps and Cloud Solutions — ensuring sustainable growth and exceptional user experiences.
                     </motion.p>
                 </section>
 

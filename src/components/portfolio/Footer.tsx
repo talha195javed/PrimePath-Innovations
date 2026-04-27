@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,8 +8,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/talha195javed', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://www.linkedin.com/in/m-talha-javed-aa36b9ba/', label: 'LinkedIn' },
-    { icon: FaTwitter, href: 'https://twitter.com/talha195javed', label: 'Twitter' },
-    { icon: FaEnvelope, href: 'mailto:talha@example.com', label: 'Email' }
+    { icon: FaEnvelope, href: 'mailto:talha195javed@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [

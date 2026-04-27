@@ -32,7 +32,7 @@ const Projects = () => {
       id: 1,
       title: "Smart Classic - Dubai Business Setup",
       description: "Dubai's best business setup company platform offering company formation services, freelance visa packages, and investor visa solutions with expert consultation.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "MongoDB", "WhatsApp Integration"],
       category: "fullstack",
       github: "https://github.com/talha195javed/smart-classic",
@@ -44,7 +44,7 @@ const Projects = () => {
       id: 2,
       title: "GoSmart AI - AI Sales Agents",
       description: "AI-powered platform that builds intelligent sales agents and smart business communication tools with advanced integrations for automated selling.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-3.jpg",
       technologies: ["React", "TypeScript", "AI/ML", "WebSocket"],
       category: "fullstack",
       github: "https://github.com/talha195javed/gosmart-ai",
@@ -56,7 +56,7 @@ const Projects = () => {
       id: 3,
       title: "MindSkiller - Mental Health Platform",
       description: "Enhanced mental health journey platform providing comprehensive wellness tools, therapy resources, and personalized mental health support services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-4.webp",
       technologies: ["React", "Node.js", "PostgreSQL", "HIPAA Compliance"],
       category: "fullstack",
       github: "https://github.com/talha195javed/mindskiller",
@@ -68,7 +68,7 @@ const Projects = () => {
       id: 4,
       title: "StableWire - P2P Currency Exchange",
       description: "Peer-to-peer currency exchange platform with live rates, multiple payment methods, verified agents, and non-custodial trading for fiat and stablecoins.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-5.jpg",
       technologies: ["React Native", "TypeScript", "Blockchain", "Secure APIs"],
       category: "fullstack",
       github: "https://github.com/talha195javed/stablewire",
@@ -80,7 +80,7 @@ const Projects = () => {
       id: 5,
       title: "Royal Express - Logistics Platform",
       description: "Myanmar's pioneering express courier service with extensive delivery network, real-time tracking, and innovative logistics solutions for businesses.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "GPS Tracking", "MongoDB"],
       category: "fullstack",
       github: "https://github.com/talha195javed/royal-express",
@@ -92,7 +92,7 @@ const Projects = () => {
       id: 6,
       title: "Aletheia Integrative - Medical Platform",
       description: "Integrative medical practice platform for Dr. Jaime Dodge MD with patient management, appointment scheduling, and telemedicine capabilities.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "TypeScript", "Healthcare APIs", "HIPAA"],
       category: "fullstack",
       github: "https://github.com/talha195javed/aletheia",
@@ -104,7 +104,7 @@ const Projects = () => {
       id: 7,
       title: "Glass Assist UK - Windscreen Services",
       description: "24/7 windscreen replacement and car window repair service platform with nationwide coverage, instant quotes, and mobile technician dispatch.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Google Maps API", "Booking System"],
       category: "fullstack",
       github: "https://github.com/talha195javed/glass-assist",
@@ -116,7 +116,7 @@ const Projects = () => {
       id: 8,
       title: "Team Hively - Customer Feedback Platform",
       description: "Real-time customer and employee feedback platform with satisfaction surveys, analytics dashboard, and actionable insights for business improvement.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "TypeScript", "Analytics", "Survey Engine"],
       category: "frontend",
       github: "https://github.com/talha195javed/team-hively",
@@ -128,7 +128,7 @@ const Projects = () => {
       id: 9,
       title: "Complily - AI Compliance Platform",
       description: "AI-powered compliance platform that analyzes and tracks marketing materials, ads, landing pages, and sales calls to ensure regulatory compliance.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-6.webp",
       technologies: ["React", "AI/ML", "Natural Language Processing", "Analytics"],
       category: "fullstack",
       github: "https://github.com/talha195javed/complily",
@@ -140,7 +140,7 @@ const Projects = () => {
       id: 10,
       title: "Hybrid Ventures - Digital Agency",
       description: "Digital agency specializing in innovative web solutions, creative design, and cutting-edge technology implementations for modern businesses.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-7.webp",
       technologies: ["React", "JavaScript", "CSS3", "Responsive Design"],
       category: "frontend",
       github: "https://github.com/talha195javed/hybrid-ventures",
@@ -152,7 +152,7 @@ const Projects = () => {
       id: 11,
       title: "Kobac Dev - Development Platform",
       description: "Professional development platform showcasing innovative coding solutions, web applications, and software development services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "MongoDB", "Express.js"],
       category: "fullstack",
       github: "https://github.com/talha195javed/kobacdev",
@@ -164,7 +164,7 @@ const Projects = () => {
       id: 12,
       title: "Basmago - E-commerce Platform",
       description: "Modern e-commerce platform with advanced product management, secure payment processing, and seamless user shopping experience.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "TypeScript", "Node.js", "Payment Gateway"],
       category: "fullstack",
       github: "https://github.com/talha195javed/basmago",
@@ -176,7 +176,7 @@ const Projects = () => {
       id: 13,
       title: "A Better Choice Care - Healthcare Services",
       description: "Healthcare services platform providing comprehensive care solutions, patient management, and medical service coordination.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Healthcare APIs", "Patient Management", "Secure Systems"],
       category: "frontend",
       github: "https://github.com/talha195javed/abetterchoicecare",
@@ -188,7 +188,7 @@ const Projects = () => {
       id: 14,
       title: "Moonlight BC - Business Consulting",
       description: "Professional business consulting platform offering strategic solutions, business analysis, and corporate development services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Business Analytics", "CRM Integration", "Dashboard"],
       category: "frontend",
       github: "https://github.com/talha195javed/moonlightbc",
@@ -200,7 +200,7 @@ const Projects = () => {
       id: 15,
       title: "Smart Classic - Backend API System",
       description: "Robust backend API system for Dubai business setup platform with advanced data processing, user management, and integration services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "Express.js", "MongoDB", "REST APIs", "JWT Authentication"],
       category: "backend",
       github: "https://github.com/talha195javed/smart-classic-backend",
@@ -212,7 +212,7 @@ const Projects = () => {
       id: 16,
       title: "GoSmart AI - Backend Infrastructure",
       description: "Scalable backend infrastructure for AI sales agents platform with real-time data processing, machine learning integration, and API services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Python", "Django", "PostgreSQL", "Redis", "WebSocket", "AI/ML"],
       category: "backend",
       github: "https://github.com/talha195javed/gosmart-ai-backend",
@@ -224,7 +224,7 @@ const Projects = () => {
       id: 17,
       title: "MindSkiller - Healthcare Backend",
       description: "Secure healthcare backend system for mental health platform with HIPAA compliance, patient data management, and telemedicine services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "Express", "PostgreSQL", "HIPAA Compliance", "Encryption"],
       category: "backend",
       github: "https://github.com/talha195javed/mindskiller-backend",
@@ -236,7 +236,7 @@ const Projects = () => {
       id: 18,
       title: "StableWire - P2P Exchange Backend",
       description: "High-performance backend for peer-to-peer currency exchange with real-time rate processing, secure transactions, and blockchain integration.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "Express", "Blockchain", "WebSocket", "Security"],
       category: "backend",
       github: "https://github.com/talha195javed/stablewire-backend",
@@ -248,7 +248,7 @@ const Projects = () => {
       id: 19,
       title: "Royal Express - Logistics Backend",
       description: "Comprehensive logistics backend system with GPS tracking, route optimization, fleet management, and real-time delivery monitoring.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "MongoDB", "GPS APIs", "Real-time Processing", "Analytics"],
       category: "backend",
       github: "https://github.com/talha195javed/royal-express-backend",
@@ -260,7 +260,7 @@ const Projects = () => {
       id: 20,
       title: "Aletheia - Medical Backend System",
       description: "Advanced medical practice backend with patient management, appointment scheduling, telemedicine, and secure health data processing.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "Express", "PostgreSQL", "Healthcare APIs", "Security"],
       category: "backend",
       github: "https://github.com/talha195javed/aletheia-backend",
@@ -272,7 +272,7 @@ const Projects = () => {
       id: 21,
       title: "Glass Assist UK - Service Backend",
       description: "Backend system for windscreen services with booking management, technician dispatch, inventory tracking, and customer management.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "Express", "MySQL", "Google Maps API", "Booking System"],
       category: "backend",
       github: "https://github.com/talha195javed/glass-assist-backend",
@@ -284,7 +284,7 @@ const Projects = () => {
       id: 22,
       title: "Team Hively - Analytics Backend",
       description: "Real-time feedback analytics backend with survey processing, data visualization, reporting systems, and customer insights.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Node.js", "Express", "MongoDB", "Analytics Engine", "Data Processing"],
       category: "backend",
       github: "https://github.com/talha195javed/team-hively-backend",
@@ -296,7 +296,7 @@ const Projects = () => {
       id: 23,
       title: "Complily - AI Compliance Backend",
       description: "AI-powered compliance backend with text analysis, regulatory monitoring, automated reporting, and compliance tracking systems.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["Python", "Django", "AI/ML", "NLP", "Compliance Engine"],
       category: "backend",
       github: "https://github.com/talha195javed/complily-backend",
@@ -308,7 +308,7 @@ const Projects = () => {
       id: 24,
       title: "Smart Classic - Full Stack Business Platform",
       description: "Complete full-stack business setup platform for Dubai with frontend dashboard, backend APIs, database management, and integrated services.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "REST APIs", "Payment Integration"],
       category: "fullstack",
       github: "https://github.com/talha195javed/smart-classic-fullstack",
@@ -320,7 +320,7 @@ const Projects = () => {
       id: 25,
       title: "GoSmart AI - Full Stack AI Platform",
       description: "Complete AI-powered sales platform with frontend interface, backend AI services, real-time communication, and intelligent automation.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Python", "Django", "PostgreSQL", "WebSocket", "AI/ML", "OpenAI Integration"],
       category: "fullstack",
       github: "https://github.com/talha195javed/gosmart-ai-fullstack",
@@ -332,7 +332,7 @@ const Projects = () => {
       id: 26,
       title: "MindSkiller - Full Stack Mental Health Platform",
       description: "Complete mental health platform with frontend patient portal, backend healthcare system, HIPAA compliance, and telemedicine features.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Express", "PostgreSQL", "HIPAA", "Video Calling", "Secure Messaging"],
       category: "fullstack",
       github: "https://github.com/talha195javed/mindskiller-fullstack",
@@ -344,7 +344,7 @@ const Projects = () => {
       id: 27,
       title: "StableWire - Full Stack P2P Exchange",
       description: "Complete peer-to-peer currency exchange platform with frontend trading interface, backend blockchain integration, and secure transaction processing.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React Native", "Node.js", "Express", "Blockchain", "WebSocket", "Security", "Real-time Rates"],
       category: "fullstack",
       github: "https://github.com/talha195javed/stablewire-fullstack",
@@ -356,7 +356,7 @@ const Projects = () => {
       id: 28,
       title: "Royal Express - Full Stack Logistics Platform",
       description: "Complete logistics platform with frontend tracking dashboard, backend fleet management, GPS integration, and real-time delivery monitoring.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Express", "MongoDB", "GPS APIs", "Real-time Tracking", "Analytics Dashboard"],
       category: "fullstack",
       github: "https://github.com/talha195javed/royal-express-fullstack",
@@ -368,7 +368,7 @@ const Projects = () => {
       id: 29,
       title: "Aletheia - Full Stack Medical Platform",
       description: "Complete medical practice platform with frontend patient portal, backend management system, telemedicine, and secure health data processing.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Express", "PostgreSQL", "Healthcare APIs", "Video Consultation", "Appointment System"],
       category: "fullstack",
       github: "https://github.com/talha195javed/aletheia-fullstack",
@@ -380,7 +380,7 @@ const Projects = () => {
       id: 30,
       title: "Glass Assist UK - Full Stack Service Platform",
       description: "Complete windscreen service platform with frontend booking system, backend dispatch management, technician tracking, and customer portal.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Express", "MySQL", "Google Maps API", "Booking Engine", "Mobile Dispatch"],
       category: "fullstack",
       github: "https://github.com/talha195javed/glass-assist-fullstack",
@@ -392,7 +392,7 @@ const Projects = () => {
       id: 31,
       title: "Team Hively - Full Stack Feedback Platform",
       description: "Complete customer feedback platform with frontend survey interface, backend analytics engine, reporting dashboard, and insights generation.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Analytics Engine", "Data Visualization", "Survey System"],
       category: "fullstack",
       github: "https://github.com/talha195javed/team-hively-fullstack",
@@ -404,7 +404,7 @@ const Projects = () => {
       id: 32,
       title: "Complily - Full Stack AI Compliance Platform",
       description: "Complete AI compliance platform with frontend dashboard, backend AI processing, regulatory monitoring, and automated compliance reporting.",
-      image: "/api/placeholder/600/400",
+      image: "/images/intro-2.avif",
       technologies: ["React", "Python", "Django", "AI/ML", "NLP", "Compliance Engine", "Reporting Dashboard"],
       category: "fullstack",
       github: "https://github.com/talha195javed/complily-fullstack",
@@ -426,30 +426,35 @@ const Projects = () => {
     : projects.filter(project => project.category === filter);
 
   return (
-    <section id="projects" className="py-20 bg-slate-800">
+    <section id="projects" className="py-24 bg-gradient-to-b from-slate-800 to-slate-900">
       <div className="container mx-auto px-6">
         <motion.div
-          className="max-w-6xl mx-auto"
+          className="max-w-7xl mx-auto"
           variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
+          initial="visible"
+          animate="visible"
         >
-          {/* Section Title */}
-          <motion.div
-            className="text-center mb-16"
-            variants={itemVariants}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              My <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Projects</span>
+          {/* Section Header */}
+          <motion.div className="text-center mb-20" variants={itemVariants}>
+            <h2 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-200 mb-6 tracking-tight">
+              Featured Projects
             </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-              Explore my recent work and see how I've helped businesses and individuals bring their ideas to life through code.
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+              Explore my comprehensive portfolio of 32+ projects showcasing expertise across full-stack development, 
+              AI integration, and cutting-edge web technologies
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto"></div>
+            <div className="flex items-center justify-center gap-4 mt-6">
+              <div className="flex items-center gap-2 text-purple-400">
+                <div className="w-3 h-3 bg-purple-400 rounded-full animate-pulse"></div>
+                <span className="font-medium">32+ Projects Delivered</span>
+              </div>
+              <div className="w-px h-6 bg-gray-600"></div>
+              <div className="flex items-center gap-2 text-blue-400">
+                <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse delay-300"></div>
+                <span className="font-medium">Multiple Industries</span>
+              </div>
+            </div>
           </motion.div>
-
-          {/* Filter Buttons */}
           <motion.div
             className="flex flex-wrap justify-center gap-4 mb-12"
             variants={itemVariants}
@@ -479,9 +484,17 @@ const Projects = () => {
               >
                 <div className="bg-slate-900 rounded-xl overflow-hidden border border-slate-700 hover:border-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
                   {/* Project Image */}
-                  <div className="relative h-48 bg-gradient-to-br from-purple-600 to-pink-600 overflow-hidden">
+                  <div className="relative h-48 overflow-hidden bg-gradient-to-br from-purple-600 to-pink-600">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                      onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
                     <div className="absolute inset-0 bg-black opacity-20"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                       <project.icon className="text-6xl text-white opacity-50" />
                     </div>
                     {project.featured && (

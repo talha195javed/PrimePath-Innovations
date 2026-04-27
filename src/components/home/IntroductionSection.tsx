@@ -51,13 +51,14 @@ const IntroductionSection: React.FC = () => {
             >
                 <div>
                     <h1 className="text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-7xl">
-                        Virtual Assistants
+                        Full Stack Development
                     </h1>
                     <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl lg:text-5xl">
-                        for Everything
+                        Services for Modern Business
                     </h2>
                     <h3 className="text-lg text-white sm:text-xl md:text-xl lg:text-2xl mt-[36px] max-w-[600px] mx-auto">
-                        From startups to growing enterprises, our clients trust us to deliver excellence, consistency, and measurable impact.
+                        Transform your ideas into powerful digital solutions with expert full-stack development, 
+                        AI integration, and cutting-edge web technologies tailored to your business needs.
                     </h3>
                 </div>
 

@@ -20,13 +20,13 @@ const TeamMembersSection: React.FC = () => {
             name: "Anvar",
             position: "Government Relations Manager",
             image: "./images/team/team-2.png",
-            linkedIn: "https://www.linkedin.com/company/smartclassicdubai/posts/?feedView=all",
+            linkedIn: "https://www.linkedin.com/in/m-talha-javed-aa36b9ba/",
         },
         {
             name: "Mansour",
             position: "B2G Manager",
             image: "./images/team/team-3.png",
-            linkedIn: "https://www.linkedin.com/company/smartclassicdubai/posts/?feedView=all",
+            linkedIn: "https://www.linkedin.com/in/m-talha-javed-aa36b9ba/",
         },
         {
             name: "Jabir",
@@ -38,19 +38,19 @@ const TeamMembersSection: React.FC = () => {
             name: "Sherin",
             position: "Customer Happiness Specialist",
             image: "./images/team/team-5.png",
-            linkedIn: "https://www.linkedin.com/company/smartclassicdubai/posts/?feedView=all",
+            linkedIn: "https://www.linkedin.com/in/m-talha-javed-aa36b9ba/",
         },
         {
             name: "Shammas",
             position: "Accounts Specialist",
             image: "./images/team/team-6.png",
-            linkedIn: "https://www.linkedin.com/company/smartclassicdubai/posts/?feedView=all",
+            linkedIn: "https://www.linkedin.com/in/m-talha-javed-aa36b9ba/",
         },
         {
             name: "Faisal",
             position: "VAT, Corporate Tax and Bookkeeping Specialist",
             image: "./images/team/team-7.png",
-            linkedIn: "https://www.linkedin.com/company/smartclassicdubai/posts/?feedView=all",
+            linkedIn: "https://www.linkedin.com/in/m-talha-javed-aa36b9ba/",
         }
     ];
 
