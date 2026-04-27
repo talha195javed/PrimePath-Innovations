@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className={`max-h-[100vh] overflow-auto fixed top-0 left-0 w-full p-4 transition-all duration-300 ${navBgColor} z-50`}>
+        <nav className={`fixed top-0 left-0 w-full p-4 transition-all duration-300 ${navBgColor} z-50`}>
             <div className="px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     {/* Mobile Menu Button */}
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
 
                     {/* Logo Section */}
                     <div className="flex items-center justify-center flex-1 lg:justify-start">
-                        <img src={"icons/elevent.png"} alt="icon" className="h-24 mr-2" />
+                        <img src={"icons/logo.png"} alt="icon" className="h-24 mr-2" />
                     </div>
 
                     {/* Desktop Navigation */}
@@ -85,6 +85,7 @@ const Navbar: React.FC = () => {
                                 { path: '/', label: 'Home' },
                                 { path: '/about', label: 'About' },
                                 { path: '/services', label: 'Services' },
+                                { path: '/portfolio', label: 'Portfolio' },
                                 { path: '/contact', label: 'Contact' }
                             ].map(({ path, label }) => (
                                 <Link
@@ -95,6 +96,41 @@ const Navbar: React.FC = () => {
                                     {label}
                                 </Link>
                             ))}
+                            {/* Industries Dropdown (Desktop) */}
+                            <div className="relative" ref={industriesRef}>
+                                <button
+                                    onClick={() => setIndustriesOpen(!isIndustriesOpen)}
+                                    className="relative px-2 py-2 text-sm font-semibold text-gray-300 transition-all transform hover:scale-105 button-border"
+                                >
+                                    Industries
+                                </button>
+
+                                <AnimatePresence>
+                                    {isIndustriesOpen && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 10 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: 10 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="absolute right-0 z-[9999] w-64 mt-2 bg-gray-800 rounded-md shadow-lg"
+                                        >
+                                            <div className="py-2">
+                                                {industries.map(({ id, label, icon }) => (
+                                                    <Link
+                                                        key={id}
+                                                        to={`/industries#${id}`}
+                                                        onClick={handleCloseIndustries}
+                                                        className="flex items-center px-4 py-2 space-x-2 text-white hover:bg-gray-700"
+                                                    >
+                                                        <span>{icon}</span>
+                                                        <span>{label}</span>
+                                                    </Link>
+                                                ))}
+                                            </div>
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
+                            </div>
 
                             {/* Translate to Arabic Button (Desktop) */}
                             <motion.button
@@ -126,6 +162,7 @@ const Navbar: React.FC = () => {
                             { path: '/', label: 'Home' },
                             { path: '/about', label: 'About' },
                             { path: '/services', label: 'Services' },
+                            { path: '/portfolio', label: 'Portfolio' },
                             { path: '/contact', label: 'Contact' }
                         ].map(({ path, label }) => (
                             <Link

@@ -11,6 +11,7 @@ import Insights from './pages/Insights';
 import Industries from './pages/Industries';
 import ArticleView from './components/insights/ArticleView';
 import WhatsAppFAB from './components/whatsappButton/whatsappFAB';
+import Portfolio from './pages/Portfolio';
 
 // Scroll to top when leaving a page
 const ScrollToTop = () => {
@@ -39,6 +40,7 @@ function App() {
         <Route path="/industries" element={<Industries />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/article/:id" element={<ArticleView />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <WhatsAppFAB />
       <Footer />
